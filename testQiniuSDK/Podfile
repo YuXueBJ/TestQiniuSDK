@@ -1,0 +1,7 @@
+
+target "testQiniuSDK" do
+  platform :ios, "6.0"
+  pod 'Qiniu','~>7.0'
+  platform :ios, '7.0'
+  pod 'SDWebImage', '~>3.8'
+end
