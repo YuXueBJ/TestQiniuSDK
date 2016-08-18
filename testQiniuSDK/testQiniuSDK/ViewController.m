@@ -60,6 +60,8 @@ static NSString * MY_SECRET_KEY = @"gHigIjTUzSMy0wf5FwDGKoz4bg8FGyBxfMHMCamm";
 {
     time_t deadline;
     time(&deadline);//返回当前系统时间
+    deadline +=  3600*24;
+    
     //@property (nonatomic , assign) int expires; 怎么定义随你...
     deadline += (self.expires > 0) ? self.expires : 3600; // +3600秒,即默认token保存1小时.
     

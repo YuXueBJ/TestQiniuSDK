@@ -42,41 +42,6 @@
 			remoteGlobalIDString = E4EAD1061D12A17B00D5ED21;
 			remoteInfo = testQiniuSDK;
 		};
-		E4EAD1441D12A34500D5ED21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D90F1EB2E618155B155AC748355475E6;
-			remoteInfo = AFNetworking;
-		};
-		E4EAD1461D12A34500D5ED21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 17968EFA2851AAA2181B5357D2A83A89;
-			remoteInfo = HappyDNS;
-		};
-		E4EAD1481D12A34500D5ED21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EBCA0B6804BA3C0A3F95B65EBEBE5F0A;
-			remoteInfo = "Pods-testQiniuSDK";
-		};
-		E4EAD14A1D12A34500D5ED21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 58DB846E60F8E9014A852085D0A9D263;
-			remoteInfo = Qiniu;
-		};
-		E4ED00501D2A760B00A9909B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 38C724F172491775B7AE1FC95B61CE6C;
-			remoteInfo = SDWebImage;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,7 +76,6 @@
 		E4EAD12B1D12A17B00D5ED21 /* testQiniuSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testQiniuSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EAD12F1D12A17B00D5ED21 /* testQiniuSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testQiniuSDKUITests.m; sourceTree = "<group>"; };
 		E4EAD1311D12A17B00D5ED21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		E4EAD14C1D12A48500D5ED21 /* liufeier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liufeier.jpg; sourceTree = "<group>"; };
 		E4ED00491D2A760B00A9909B /* Simulator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Simulator.png; sourceTree = "<group>"; };
 		E4ED00551D2B520200A9909B /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
@@ -165,7 +129,6 @@
 		94EA85DBE7AE2CEC39CE142B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */,
 				EBF76D83C0B66B229CB20E3C /* Pods-testQiniuSDK.debug.xcconfig */,
 				FBBC723A567C9D072DEF045F /* Pods-testQiniuSDK.release.xcconfig */,
 			);
@@ -239,18 +202,6 @@
 				E4EAD1311D12A17B00D5ED21 /* Info.plist */,
 			);
 			path = testQiniuSDKUITests;
-			sourceTree = "<group>";
-		};
-		E4EAD13E1D12A34500D5ED21 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E4EAD1451D12A34500D5ED21 /* libAFNetworking.a */,
-				E4EAD1471D12A34500D5ED21 /* libHappyDNS.a */,
-				E4EAD1491D12A34500D5ED21 /* libPods-testQiniuSDK.a */,
-				E4EAD14B1D12A34500D5ED21 /* libQiniu.a */,
-				E4ED00511D2A760B00A9909B /* libSDWebImage.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E4ED005C1D2B538B00A9909B /* GTMBase64-master */ = {
@@ -359,12 +310,6 @@
 			mainGroup = E4EAD0FE1D12A17B00D5ED21;
 			productRefGroup = E4EAD1081D12A17B00D5ED21 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E4EAD13E1D12A34500D5ED21 /* Products */;
-					ProjectRef = E4EAD13D1D12A34500D5ED21 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E4EAD1061D12A17B00D5ED21 /* testQiniuSDK */,
@@ -373,44 +318,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E4EAD1451D12A34500D5ED21 /* libAFNetworking.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAFNetworking.a;
-			remoteRef = E4EAD1441D12A34500D5ED21 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E4EAD1471D12A34500D5ED21 /* libHappyDNS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libHappyDNS.a;
-			remoteRef = E4EAD1461D12A34500D5ED21 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E4EAD1491D12A34500D5ED21 /* libPods-testQiniuSDK.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libPods-testQiniuSDK.a";
-			remoteRef = E4EAD1481D12A34500D5ED21 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E4EAD14B1D12A34500D5ED21 /* libQiniu.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libQiniu.a;
-			remoteRef = E4EAD14A1D12A34500D5ED21 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E4ED00511D2A760B00A9909B /* libSDWebImage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDWebImage.a;
-			remoteRef = E4ED00501D2A760B00A9909B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E4EAD1051D12A17B00D5ED21 /* Resources */ = {
